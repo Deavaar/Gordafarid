@@ -1,0 +1,23 @@
+[Unit]
+Description=Gordafarid Telegram Group Management Bot (گردآفرید)
+After=network.target postgresql.service
+Requires=postgresql.service
+
+[Service]
+Type=simple
+User=arch
+Group=arch
+WorkingDirectory=/home/arch/gordafarid
+ExecStart=/home/arch/gordafarid/target/release/gordafarid
+Restart=always
+RestartSec=5
+EnvironmentFile=/home/arch/gordafarid/.env
+
+# امنیت و ایزوله‌سازی سرویس
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/home/arch/gordafarid
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

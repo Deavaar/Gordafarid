@@ -1,0 +1,31 @@
+[package]
+name = "gordafarid"
+version = "0.1.0"
+edition = "2021"
+authors = ["Gordafarid Team"]
+description = "گردآفرید — ربات پیشرفته، رایگان و کاملاً فارسی مدیریت گروه تلگرام"
+
+[dependencies]
+teloxide = { version = "0.13", features = ["macros", "throttle"] }
+tokio = { version = "1", features = ["full"] }
+sqlx = { version = "0.8", features = ["runtime-tokio-rustls", "postgres", "chrono", "uuid", "macros"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = { version = "0.10", features = ["serde"] }
+dotenvy = "0.15"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+regex = "1.10"
+dashmap = "6.0"
+thiserror = "2.0"
+anyhow = "1.0"
+unicode-normalization = "0.1"
+redis = { version = "0.27", features = ["tokio-comp"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

@@ -1,0 +1,100 @@
+{
+  "start": {
+    "text": "{RLM}🛡️ <b>گردآفرید در اختیار شماست!</b>\n\n{RLM}🌸 <b>درباره نگهبان هوشمند گروه‌ها</b>\nبا افزودن گردآفرید در گروه خودتان، نظم و امنیت پایدار را برقرار کنید.\nگردآفرید مانند یک مادر مهربان، شبانه‌روز از تمام گروه مراقبت می‌کند."
+  },
+  "help": "{RLM}🛡️ <b>مرکز راهنمایی و فرامین گردآفرید</b>\n\n\n        <details open>\n\n          <summary>🚀 <b>راه اندازی اولیه گروه</b></summary>\n\n          <ul>\n\n            <li><input type=\"checkbox\" checked> افزودن ربات به گروه با دسترسی ادمین</li>\n\n            <li><input type=\"checkbox\" checked> تنظیم کانال جوین اجباری با <code>تنظیم کانال @آیدی</code></li>\n\n            <li><input type=\"checkbox\" checked> باز کردن پنل مدیریت با دستور <code>تنظیمات</code></li>\n\n            <li><input type=\"checkbox\" checked> ثبت و تدوین قوانین گروه با <code>تنظیم قوانین [متن]</code></li>\n\n          </ul>\n\n        </details>\n\n\n        <details>\n\n          <summary>🔨 <b>دستورات نظارتی و انضباطی (مدیریت اعضا)</b></summary>\n\n          <table bordered striped compact>\n\n            <caption align=\"center\">🔨 <b>دستورات نظارتی و انضباطی</b></caption>\n\n            <tr><th align=\"center\">دستور</th><th align=\"center\">توضیح عملکرد</th></tr>\n\n            <tr><td align=\"center\"><code>بن [زمان] [دلیل]</code></td><td align=\"center\">مسدودسازی دائم یا زمان‌دار</td></tr>\n\n            <tr><td align=\"center\"><code>میوت [زمان] [دلیل]</code></td><td align=\"center\">سلب دسترسی ارسال پیام در گروه</td></tr>\n\n            <tr><td align=\"center\"><code>اخراج [دلیل]</code></td><td align=\"center\">اخراج فوری کاربر خاطی از گروه</td></tr>\n\n            <tr><td align=\"center\"><code>رفع بن</code></td><td align=\"center\">لغو مسدودیت و اجازه بازگشت</td></tr>\n\n            <tr><td align=\"center\"><code>رفع میوت</code></td><td align=\"center\">آزادسازی چت و لغو حالت سکوت</td></tr>\n\n            <tr><td align=\"center\"><code>اخطار [دلیل]</code></td><td align=\"center\">ثبت اخطار انضباطی به کاربر</td></tr>\n\n            <tr><td align=\"center\"><code>حذف اخطار</code></td><td align=\"center\">پاکسازی کامل اخطارهای کاربر</td></tr>\n\n            <tr><td align=\"center\"><code>اخطارها</code></td><td align=\"center\">استعلام تعداد اخطارهای کاربر</td></tr>\n\n            <tr><td align=\"center\"><code>حذف</code></td><td align=\"center\">پاکسازی پیام ریپلای‌شده</td></tr>\n\n            <tr><td align=\"center\"><code>پاکسازی ۲۰</code></td><td align=\"center\">حذف دسته‌ای پیام‌ها (تا ۱۰۰ پیام)</td></tr>\n\n            <tr><td align=\"center\"><code>سنجاق</code> / <code>لغو سنجاق</code></td><td align=\"center\">پین یا آنپین کردن پیام</td></tr>\n\n            <tr><td align=\"center\"><code>اطلاعات</code></td><td align=\"center\">نمایش شناسنامه امنیتی کاربر</td></tr>\n\n          </table>\n\n        </details>\n\n\n        <details>\n\n          <summary>📡 <b>کنترل محتوای کامنت‌های پست کانال</b></summary>\n\n          <table bordered striped compact>\n\n            <caption align=\"center\">📡 <b>کنترل محتوای کامنت‌ها</b></caption>\n\n            <tr><th align=\"center\">دستور در انتهای پست</th><th align=\"center\">قانون اعمالی در کامنت‌ها</th></tr>\n\n            <tr><td align=\"center\"><code>تنظیم گیف</code></td><td align=\"center\">فقط ارسال گیف مجاز است</td></tr>\n\n            <tr><td align=\"center\"><code>تنظیم عکس</code></td><td align=\"center\">فقط ارسال عکس مجاز است</td></tr>\n\n            <tr><td align=\"center\"><code>تنظیم همه بجز فیلم</code></td><td align=\"center\">همه محتوا مجاز به جز فیلم</td></tr>\n\n            <tr><td align=\"center\"><code>تنظیم همه بجز عکس</code></td><td align=\"center\">همه محتوا مجاز به جز عکس</td></tr>\n\n          </table>\n\n        </details>\n\n\n        <details>\n\n          <summary>🔒 <b>مدیریت قفل‌ها و امنیت گروه</b></summary>\n\n          <table bordered striped compact>\n\n            <caption align=\"center\">🔒 <b>مدیریت قفل‌ها و امنیت گروه</b></caption>\n\n            <tr><th align=\"center\">دستور</th><th align=\"center\">عملکرد قفل</th></tr>\n\n            <tr><td align=\"center\"><code>قفل گروه</code></td><td align=\"center\">باز کردن منوی حالت‌های قفل</td></tr>\n\n            <tr><td align=\"center\"><code>قفل سراسری</code></td><td align=\"center\">مسدودسازی ارسال هرگونه پیام</td></tr>\n\n            <tr><td align=\"center\"><code>کامنت آزاد</code></td><td align=\"center\">امکان چت فقط ذیل پست کانال</td></tr>\n\n            <tr><td align=\"center\"><code>باز کردن گروه</code></td><td align=\"center\">بازگشایی چت به حالت عادی</td></tr>\n\n            <tr><td align=\"center\"><code>قفل [رسانه]</code></td><td align=\"center\">قفل لینک، فوروارد، عکس، فیلم و...</td></tr>\n\n            <tr><td align=\"center\"><code>باز کردن [رسانه]</code></td><td align=\"center\">آزادسازی رسانه قفل‌شده</td></tr>\n\n          </table>\n\n        </details>\n\n\n        <details>\n\n          <summary>💬 <b>دستورات دلخواه و فیلترها</b></summary>\n\n          <table bordered striped compact>\n\n            <caption align=\"center\">💬 <b>دستورات دلخواه و فیلترها</b></caption>\n\n            <tr><th align=\"center\">دستور</th><th align=\"center\">عملکرد</th></tr>\n\n            <tr><td align=\"center\"><code>افزودن دستور [کلید] | [پاسخ]</code></td><td align=\"center\">پاسخگوی خودکار گروه</td></tr>\n\n            <tr><td align=\"center\"><code>حذف دستور [کلید]</code></td><td align=\"center\">حذف دستور دلخواه</td></tr>\n\n            <tr><td align=\"center\"><code>لیست دستورات</code></td><td align=\"center\">نمایش فرامین ثبت‌شده</td></tr>\n\n            <tr><td align=\"center\"><code>افزودن کلمه ممنوعه [کلمه]</code></td><td align=\"center\">مسدودسازی کلمه رکیک</td></tr>\n\n            <tr><td align=\"center\"><code>حذف کلمه ممنوعه [کلمه]</code></td><td align=\"center\">لغو فیلتر کلمه ممنوعه</td></tr>\n\n            <tr><td align=\"center\"><code>افزودن لینک مجاز [دامنه]</code></td><td align=\"center\">استثنا کردن دامنه از فیلتر</td></tr>\n\n            <tr><td align=\"center\"><code>حذف لینک مجاز [دامنه]</code></td><td align=\"center\">حذف از لیست مجاز</td></tr>\n\n          </table>\n\n        </details>\n\n\n        <details>\n\n          <summary>⚙️ <b>دستورات عمومی و پنل</b></summary>\n\n          <table bordered striped compact>\n\n            <caption align=\"center\">⚙️ <b>دستورات عمومی و پنل</b></caption>\n\n            <tr><th align=\"center\">دستور</th><th align=\"center\">توضیح</th></tr>\n\n            <tr><td align=\"center\"><code>تنظیمات</code> / <code>پنل</code></td><td align=\"center\">پنل شیشه‌ای تنظیمات</td></tr>\n\n            <tr><td align=\"center\"><code>وضعیت</code> / <code>آمار</code></td><td align=\"center\">داشبورد وضعیت حفاظتی</td></tr>\n\n            <tr><td align=\"center\"><code>قوانین</code></td><td align=\"center\">نمایش قوانین مصوب گروه</td></tr>\n\n            <tr><td align=\"center\"><code>تنظیم تاپیک لاگ</code></td><td align=\"center\">تعیین تاپیک ثبت لاگ در فروم</td></tr>\n\n            <tr><td align=\"center\"><code>حذف تاپیک لاگ</code></td><td align=\"center\">انتقال لاگ‌ها به چت اصلی</td></tr>\n\n          </table>\n\n        </details>",
+  "poems": {
+    "mute": [
+      "زبان در دهان پاسبان سرست\nچه رنجور باشد چو او رهبرست",
+      "سخن چون برابر شود با خرد\nروان سراینده رامش برد",
+      "سخن گر چه دلبند و شیرین بود\nچو بسیار گویی نه آیین بود",
+      "چو خاموش باشی زیانت مباد\nدرشتی مکن تا نپیچد به باد",
+      "سخن گر بماند به پرده درون\nبه از گفتن و زو جگر غرق خون",
+      "به گفتار نیکو زبان برگشای\nبه گیتی مکن جز به نیکی گرای",
+      "چو بیهوده گویی به بار آورد\nروان را به بند شمار آورد"
+    ],
+    "ban": [
+      "کزین پس نداری بدین دژ امید\nکه سرت اندر آید به بند و کلید",
+      "چو پیوسته شد بد به کردار زشت\nنبیند به گیتی به جز خار کِشت",
+      "سر رشتهٔ خویش گم کردن است\nبه جیب اندرون مار پروردن است",
+      "چو ناکس به دولت رسد ناگهان\nبپیچد سر از داد و شرم جهان",
+      "برون شو ازین مرز و آرام‌گاه\nکه تیره شد این گردش سال و ماه",
+      "به گیتی نماند به جز داد و مهر\nنه کژّی و بدخویی و شوم‌چهر",
+      "نهان شد زرد و آشکارا شد آز\nسرمردمی بسته شد چون گراز"
+    ],
+    "warn": [
+      "پند خردمند بشنو به گوش\nکه تا بر سرت نفکند بد به جوش",
+      "چو تند است باد از برش تندتر\nمپوی و مشو پیش ازین خیره‌سر",
+      "ز کردار بد گر بپوشی کلاه\nسرانجام گیتی نماید سیاه",
+      "شنیدم سخن‌های دانندگان\nنباید گسستن سر بندگان",
+      "به آغاز کار اندر اندیشه کن\nخرد را و دانش خود پیشه کن",
+      "نگه دار دل را ز کردار بد\nکزین پس به تو بر یکی بد رسد"
+    ],
+    "kick": [
+      "برون راندندش ز لشکرگهی\nنماندند بر تارک او کلهی",
+      "ازین انجمن رخت بربند و رو\nبه نیکی گرای و سخن‌سنج شو",
+      "به رفتن همی باش و درنگ مکن\nکه تا تیره نگردد از تو سخن",
+      "برو پند گیر از بد روزگار\nکه تا برنگردد به تو کارزار"
+    ]
+  },
+  "notices": {
+    "ban": {
+      "title": "{RLM}🚫 <b>فرمان راندن از دژ گردآفرید</b>",
+      "outcome_timed": "🚪 <b>سرانجام:</b> مسدودسازی موقت به مدت {duration}",
+      "outcome_permanent": "🚪 <b>سرانجام:</b> اخراج و مسدودسازی همیشگی",
+      "reason_template": "\n📝 <b>انگیزه حکم:</b> {reason}",
+      "quote_author": "فردوسی بزرگ"
+    },
+    "mute": {
+      "title": "{RLM}🔇 <b>مُهر خاموشی گردآفرید</b>",
+      "duration_timed": "\n⏳ <b>درنگ و تامل:</b> {duration}",
+      "duration_permanent": "\n⏳ <b>درنگ و تامل:</b> نامحدود (تا تصمیم مدیران)",
+      "reason_template": "\n📝 <b>انگیزه حکم:</b> {reason}",
+      "quote_author": "فردوسی بزرگ"
+    },
+    "warn": {
+      "title": "{RLM}⚠️ <b>هشدار انضباطی گردآفرید</b>",
+      "count_template": "📊 <b>شمار اخطارها:</b> {count}",
+      "reason_template": "\n📝 <b>انگیزه حکم:</b> {reason}",
+      "quote_author": "فردوسی بزرگ"
+    },
+    "kick": {
+      "title": "{RLM}🚪 <b>اخراج از دژ گردآفرید</b>",
+      "outcome": "👢 <b>سرانجام:</b> اخراج از انجمن",
+      "reason_template": "\n📝 <b>انگیزه حکم:</b> {reason}",
+      "quote_author": "فردوسی بزرگ"
+    },
+    "unban": "{RLM}🔓 <b>بخشش و گشودن دروازه دژ</b>\n\n👤 <b>کاربر:</b> {mention}\n✨ مسدودیت کاربر با موفقیت لغو و دسترسی آزاد شد.",
+    "unmute": "{RLM}🔊 <b>شکستن مُهر خاموشی</b>\n\n👤 <b>کاربر:</b> {mention}\n✨ محدودیت ارسال پیام برطرف گردید و کاربر می‌تواند سخن بگوید."
+  },
+  "moderation": {
+    "mute_update_prompt": "{RLM}⚠️ گردآفرید قبلا این کاربر را تبعید کرده است!\nآیا میخواهید حکم {target_display} به روزرسانی شود؟",
+    "mute_update_success": "{RLM}مجازات کاربر ({target_display}) به روزرسانی شد!",
+    "mute_update_rejected": "{RLM}❌ به روزرسانی حکم لغو شد.",
+    "mute_update_expired": "⚠️ این درخواست منقضی شده است (مهلت ۱۰ دقیقه).",
+    "cannot_punish_admin": "{RLM}⚠️ نمی‌توان مدیران گروه یا مالک ربات را مسدود کرد.",
+    "cannot_warn_admin": "{RLM}⚠️ نمی‌توان به مدیران گروه اخطار داد.",
+    "user_not_member": "{RLM}⚠️ کاربر در گروه عضو نیست!",
+    "warn_escalation_ban": "{RLM}🚫 <b>فرمان راندن از دژ گردآفرید</b>\n\n👤 <b>کاربر:</b> {mention}\n📊 <b>وضعیت:</b> تکمیل سقف اخطارهای مجاز ({limit})\n🚪 <b>سرانجام:</b> مسدودسازی و اخراج قطعی از دژ\n\n{RLM}📖 <i>«چو تند است باد از برش تندتر\nمپوی و مشو پیش ازین خیره‌سر»</i>\n— <b>فردوسی بزرگ</b>",
+    "warn_escalation_kick": "{RLM}🚪 <b>اخراج از دژ گردآفرید</b>\n\n👤 <b>کاربر:</b> {mention}\n📊 <b>وضعیت:</b> تکمیل سقف اخطارهای مجاز ({limit})\n👢 <b>سرانجام:</b> اخراج از انجمن\n\n{RLM}📖 <i>«برون راندندش ز لشکرگهی\nنماندند بر تارک او کلهی»</i>\n— <b>فردوسی بزرگ</b>",
+    "warn_escalation_mute_1h": "{RLM}🔇 <b>مُهر خاموشی گردآفرید</b>\n\n👤 <b>کاربر:</b> {mention}\n📊 <b>وضعیت:</b> تکمیل سقف اخطارهای مجاز ({limit})\n⏳ <b>درنگ و تامل:</b> ۱ ساعت\n\n{RLM}📖 <i>«زبان در دهان پاسبان سرست\nچه رنجور باشد چو او رهبرست»</i>\n— <b>فردوسی بزرگ</b>",
+    "warn_escalation_mute_24h": "{RLM}🔇 <b>مُهر خاموشی گردآفرید</b>\n\n👤 <b>کاربر:</b> {mention}\n📊 <b>وضعیت:</b> تکمیل سقف اخطارهای مجاز ({limit})\n⏳ <b>درنگ و تامل:</b> ۲۴ ساعت\n\n{RLM}📖 <i>«زبان در دهان پاسبان سرست\nچه رنجور باشد چو او رهبرست»</i>\n— <b>فردوسی بزرگ</b>",
+    "cannot_kick_admin": "{RLM}⚠️ نمی‌توان مدیران گروه را اخراج کرد.",
+    "cannot_mute_admin": "{RLM}⚠️ نمی‌توان دسترسی مدیران گروه را سلب کرد."
+  },
+  "captcha": {
+    "prompt": "{RLM}🌸 سلام <a href=\"tg://user?id={user_id}\">{name}</a> عزیز! به گروه <b>{group}</b> خوش آمدید.\n\n{RLM}🛡️ <b>آزمون تایید هویت (کپچا):</b>\nحاصل جمع زیر چند می‌شود؟\n<code>{a} + {b} = ؟</code>\n\n⏱️ مهلت پاسخ: {timeout} ثانیه"
+  },
+  "settings": {
+    "prompt": "{RLM}🛡️ <b>گردآفرید چگونه نظم را برپا کند؟</b>\nاز اینجا مشخص کنید"
+  },
+  "pv": {
+    "select_group_panel": "{RLM}لطفا گروه مرتبط به پنل را انتخاب کنید :",
+    "select_group_admin_perms": "{RLM}لطفا گروه مورد نظر برای تنظیم دسترسی ادمین‌ها را انتخاب کنید :",
+    "no_owned_groups": "{RLM}⚠️ شما مالک هیچ گروهی نیستید یا ربات توسط شما به گروهی اضافه نشده است.",
+    "no_admin_groups": "{RLM}⚠️ شما در هیچ‌یک از گروه‌های فعال ربات دسترسی مدیریت ندارید.",
+    "permission_denied_admin": "⛔ دسترسی شما به این بخش توسط مالک گروه مسدود شده است.",
+    "admin_perms_saved": "✅ سطح دسترسی ادمین با موفقیت ذخیره و اعمال شد.",
+    "admin_perms_cancelled": "❌ تغییرات در سطح دسترسی ادمین لغو شد."
+  }
+}
